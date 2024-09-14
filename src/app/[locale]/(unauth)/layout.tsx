@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
-import { DemoBanner } from '@/components/DemoBanner';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 
@@ -15,7 +14,7 @@ export default function Layout(props: {
 
   return (
     <>
-      <DemoBanner />
+      {/* <DemoBanner /> */}
       <BaseTemplate
         leftNav={(
           <>
